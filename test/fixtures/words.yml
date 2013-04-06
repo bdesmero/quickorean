@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  word: MyString
+  translation: MyString
+  example_english: MyText
+  example_korean: MyText
+
+two:
+  word: MyString
+  translation: MyString
+  example_english: MyText
+  example_korean: MyText

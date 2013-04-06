@@ -1,5 +1,6 @@
 Quickorean::Application.routes.draw do
-  get "dashboard/show"
+
+  resources :words
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

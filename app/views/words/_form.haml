@@ -1,0 +1,32 @@
+-#locals: 
+-#  word
+
+=form_for word, :html => {:class => 'form-horizontal'} do |f|
+
+  .control-group
+    .control-label
+      %label Word
+    .controls
+      =f.text_field :word
+
+  .control-group
+    .control-label
+      %label Translation
+    .controls
+      =f.text_field :translation
+
+  .control-group
+    .control-label
+      %label Sample
+    .controls
+      =f.text_area :example_korean, :rows => 3
+
+  .control-group
+    .control-label
+      %label Sample Translation
+    .controls
+      =f.text_area :example_english, :rows => 3
+
+  .control-group
+    .controls
+      =f.submit 'Save', :class => 'btn btn-success'

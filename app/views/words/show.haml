@@ -1,0 +1,8 @@
+%h1=@word.word
+%h5=@word.translation
+
+%h4=@word.example_korean
+%h5=@word.example_english
+
+=link_to 'Edit', edit_word_path(@word), :class => 'btn btn-warning'
+=link_to 'Delete', @word, :method => :delete, :class => 'btn btn-danger', :confirm => 'Are you sure you want to delete this word?'

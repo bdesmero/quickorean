@@ -1,0 +1,13 @@
+%h1 Words
+
+%table.table
+  %thead
+    %tr
+      %th Word
+      %th Translation
+  %tbody
+    -@words.each do |word|
+      %tr
+        %td
+          =link_to word.word, word
+        %td=word.translation
