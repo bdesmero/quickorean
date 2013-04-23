@@ -8,6 +8,8 @@ gem 'twitter-bootstrap-rails', '~> 2.2.6'
 gem 'jquery-rails', '~> 2.2.1'
 gem 'haml', '~> 4.0.1'
 
+gem 'devise'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -20,18 +22,3 @@ group :test, :development do
   gem 'factory_girl_rails', '~> 4.2.1'
   gem 'shoulda'
 end
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
